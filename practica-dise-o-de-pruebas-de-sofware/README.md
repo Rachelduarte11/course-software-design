@@ -1,1 +1,0 @@
-# practica-dise-o-de-pruebas-de-sofware
