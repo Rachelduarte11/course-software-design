@@ -22,7 +22,11 @@ if ($_SERVER['REQUEST_METHOD']=== 'POST') {
 
     #PASO-5 : Programamos el envio al servidor de correo
 
-    mail($destinatario, $asunto, $cuerpo);
+    if(mail($destinatario, $asunto, $cuerpo)){
+        echo "Se ha enviado exitosamente tu solicitud"
+    }else{
+        echo "El correo no se envio 😔"
+    };
 
     
 }
