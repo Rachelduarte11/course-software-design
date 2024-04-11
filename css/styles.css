@@ -73,3 +73,21 @@
     overflow: hidden;
     transition:all .2s ease-in-out;
 }
+
+/*Matricula*/
+.titulo{
+    display: inline;
+}
+.titulo-2{
+    color: rgb(179, 0, 0);
+}
+
+i{
+    size: 32px;
+}
+
+.titulo-form{
+    background-color: #72a74f;
+    padding: .5em;
+    text-align: center;
+}
