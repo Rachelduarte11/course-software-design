@@ -36,16 +36,18 @@
                     Soluta nulla, dolorem harum veritatis explicabo magnam nisi.</p>
             </section>
 
-            <section class="col-xs-12 col-sm-12 col-md-4 border border-5">
-                <h1 class="titulo-form">¡Matrícula Gratis!</h1>
+            <section class="col-xs-12 col-sm-12 col-md-4 border section-matricula">
+                <section class="bg-warning header-yellow"><h2 class="titulo-form">¡Matrícula Gratis!</h2></section>
                 <form action="enviar.php" method="post">
-                    <h3 class="titulo-form-2">Solicita más información aqui</h3>
-                    <input type="text" name="nombres" placeholder="Nombres" required>
-                    <input type="text" name="apellidos" placeholder="Apellidos" required >
-                    <input type="email" name="email" placeholder="Ingresa tu email" required >
-                    <input type="tel" name="telefono" placeholder="Teléfono / celular" required>
-                    <input type="checkbox" name="terminos">Acepto haber leído las politicas de privacidad y los términos y condiciones.
-                    <input type="submit" value="Solicitar">
+                    <h5 class="titulo-form-2">Solicita más información aqui</h5>
+                    <input type="text" name="nombres" clas="border" placeholder="Nombres" required>
+                    <input type="text" name="apellidos" clas="border"  placeholder="Apellidos" required >
+                    <input type="email" name="email" clas="border" placeholder="Ingresa tu email" required >
+                    <input type="tel" name="telefono" clas="border" placeholder="Teléfono / celular" required>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="terminos"><p class="text-terminos-condiciones">Acepto haber leído las <a class="line-style">politicas de privacidad</a> y los <a class="line-style">términos y condiciones</a></p>
+                    <br>
+                    <input type="submit" value="Solicitar" class="bg-dark text-light btn btn-outline-dark button-solicitar">
                 </form>
             </section>
         </section>
