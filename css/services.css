@@ -1,70 +1,17 @@
-button {
-    margin-top: 12px;
+body{
+  font-family: 'montserrat';
 }
+
  
 li{
     font-size: 18px!important;
 }
-@media screen and (max-width: 640px) {
-    img {
-      width: 100%; 
-    }
-  }
-  
- 
-  @media screen and (min-width: 640px) and (max-width: 768px) {
-    img {
-      width: 80%; 
-    }
-  }
-  
 
-  @media screen and (min-width: 768px) {
-    img {
-      width: auto; 
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .primary-section{
-        padding: 10px 0px;
-    }
-    .grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr)); 
-      grid-template-rows: auto; 
-    }
-  
-    .col-start-2 {
-      grid-column-start: 1; 
-      grid-column-end: 3; 
-      grid-row-start: 1; 
-      grid-row-end: 2;
-    }
-  
-    .col-start-6 {
-      grid-column-start: 1; 
-      grid-column-end: 3; 
-      grid-row-start: 2; 
-      grid-row-end: 3; 
-      margin-top: 20px; 
-    }
-  
-    .max-w-md {
-      max-width: none;  }
-  
-    .text-2xl {
-      font-size: 1.5rem; 
-    }
-  
-    .text-4xl {
-      font-size: 2rem; 
-    }
-  
-    .text-1xl {
-      font-size: 0.875rem; 
-    }
-  
-    .my-6 {
-      margin-top: 12px; 
-      margin-bottom: 12px; 
-    }
-  }
+figure img {
+  filter: brightness(0.75);
+    transition: filter 0.3s;
+}
+
+figure:hover img {
+    filter: brightness(0.75); /* Ajusta el valor para la oscuridad deseada */
+}
