@@ -63,6 +63,56 @@
         </nav>
     </header>
 
+    <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+        </svg>
+     </button>
+     
+     <aside id="logo-sidebar" class="fixed top-56 mt-80 left-0 z-40 w-16 h-96 transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+          
+           <ul class="space-y-2 font-medium">
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <i class="fa-brands fa-facebook-f"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <i class="fa-brands fa-tiktok"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <i class="fa-brands fa-instagram"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <i class="fa-brands fa-whatsapp"></i>
+                 </a>
+              </li>
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <i class="fa-brands fa-youtube"></i>
+                 </a>
+              </li>
+           </ul>
+        </div>
+     </aside>
+     
+    
+           
+        </div>
+     </div>
+     
   <section> 
         <div class="grid grid-cols-8  grid-rows-4  w-full bg-light-background">
             <div class="col-start-2 col-span-4 row-start-2 row-span-3">
@@ -101,12 +151,12 @@
         </div>
     </section>
 
-        <section>
-        <div class="grid grid-cols-8  grid-rows-4 gap-6 w-full bg-white">
-            <div class="col-start-3 col-span-2 row-start-2 row-span-3">
-                <h2 class="my-4 text-2xl text-textAndButtons font-montserrat font-bold">La mejor experiencia</h2>
-                <h1 class="my-4 text-4xl text-blue_background font-montserrat font-bold">User Experience UI/UX</h1>
-                <ul class="max-w-md space-y-1 text-gray-500 ml-4  list-disc list-inside dark:text-gray-400 font-regular">
+    <section class="px-4 md:px-0">
+        <div class="grid grid-cols-1 md:grid-cols-8 grid-rows-4 gap-6 w-full bg-white">
+            <div class="md:col-start-3 md:col-span-2 md:row-start-2 md:row-end-4">
+                <h2 class="my-4 text-2xl md:text-3xl text-textAndButtons font-montserrat font-bold">La mejor experiencia</h2>
+                <h1 class="my-4 text-4xl md:text-5xl text-blue_background font-montserrat font-bold">User Experience UI/UX</h1>
+                <ul class="max-w-md space-y-1 text-gray-500 ml-4 list-disc list-inside dark:text-gray-400 font-regular">
                     <li>
                         Diseños Personalizados
                     </li>
@@ -114,10 +164,10 @@
                         Adaptados a móviles
                     </li>
                     <li>
-                        Botón de Whatssap
+                        Botón de Whatsapp
                     </li>
                     <li>
-                        Boton de llamada directa
+                        Botón de llamada directa
                     </li>
                     <li>
                         Google Maps interactivo
@@ -132,15 +182,16 @@
                         Libro de reclamaciones virtual
                     </li>
                 </ul>
-                <button type="button" class="text-white my-6 px-6 bg-textAndButtons font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Más Información</button>
-
+                <button type="button" class="text-white my-6 px-6 bg-textAndButtons font-medium rounded-full text-sm md:text-base px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Más Información</button>
+    
             </div>
-            <div class="col-start-5 col-span-3 my-8 row-start-1 row-end-9 ">
-                <img class="" src="../assets/img/03.webp" alt="">
+            <div class="md:col-start-1 md:col-span-8 md:row-start-1 md:row-end-3">
+                <img class="w-full md:max-h-full" src="../assets/img/03.webp" alt="">
             </div>
-
+    
         </div>
     </section>
+    
     <section>
         <div class="grid grid-cols-8  grid-rows-4 gap-6 w-full bg-blue_background">
             <div class="col-start-3 col-span-4 row-start-2 row-span-3">
