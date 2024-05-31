@@ -12,12 +12,38 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Poppins:wght@400;700;900&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="js/jquery.js"></script>
 </head>
 <header>
     <!--  -->
     
 </header>
 <body>
+     <!-- INICIO DE MENÚ -->
+     <header id="header" class="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/Logo.svg" alt="" class="img-fluid img-logo">
+                    </a>
+                    <a href="#" class="btn-menu" id="btn-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                
+            </div>
+
+
+            <div class="menu-links" id="menu-links">
+                <a href="index.html">Inicio</a>
+                <a href="matricula.html">Matrícula</a>
+                <a href="registro.html">Registro</a>
+                <a href="./pages/services.html">Servicio</a>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+    </header>
+<br><br><br><br><br>
+   <!-- FIN DE MENÚ -->
     <!-- SISTEMA DE REJILLAS CON BOOTSTRAP -->
     <article class="container">
         <section class="row">
@@ -60,7 +86,8 @@
 
 
     </article>
-
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
 
     <!-- FINDE SISTEMA DE REJILLA -->
 </body>
