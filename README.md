@@ -1,1 +1,1 @@
-# practica-dise-o-de-pruebas-de-sofware
+# Curso de Diseño de software
