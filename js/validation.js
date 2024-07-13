@@ -41,8 +41,8 @@ window.addEventListener('DOMContentLoaded', function(event){
         if (!/^[0-9]+$/.test(i)) {
             Swal.fire({
                 icon: "error",
-                title: "Oops...",
-                text: "Something went wrong!",
+                title: "Oops... Hay un error",
+                text: "Solo se aceptan numeros",
                 footer: '<a href="#">¿Por que tengo este problema?</a>'
               });   
         }else{
@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', function(event){
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
-                text: "Something went wrong!",
+                text: "Solo se aceptan números",
                 footer: '<a href="#">¿Por que tengo este problema?</a>'
               });   
         }else{
